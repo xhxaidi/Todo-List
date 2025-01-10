@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  display: flex;
+  background-image: url("gradient-minimalist-background_23-2150012324.jpg");
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.mainbox {
+  background-image: url("artwork-7182495_1280.webp");
+  background-color: #ffa49f;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  /*abhi aling item nahi hai issme */
+}
+.inButton {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  border-color: blanchedalmond;
+  font-size: 20px;
+  color: purple;
+  background-color: bisque;
+  margin-left: 10px;
+}
+
+.addNote {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.noteInput {
+  height: 40px;
+  border-radius: 20px;
+  width: 500px;
+  border-color: blanchedalmond;
+  padding-left: 15px;
+  font-family: "Libre Baskerville", serif;
+}
+.storedNotes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.addedNotes {
+  background-color: #ffb69f;
+  padding: 10px;
+  width: 400px;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  word-wrap: break-word;
+  border: 3px solid rgb(193, 52, 137);
+}
+.X {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  border-color: pink;
+  font-size: 20px;
+  color: purple;
+  background-color: rgb(220, 184, 118);
+  margin: 5px;
+}
+.subs {
+  margin-top: 7px;
+  width: 94%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+}
+.editBtn {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  border-color: pink;
+  color: purple;
+  margin-left: 5px;
+}
+.fa-regular {
+  height: 10px;
+  width: 10px;
+}
+.chk {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+.line-through {
+  text-decoration: line-through;
+  color: gray; /* Optional: Change text color for better visual effect */
+}
+.updateBtn {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  border-color: blanchedalmond;
+  font-size: 20px;
+  color: purple;
+  background-color: bisque;
+  margin-left: 10px;
+}
